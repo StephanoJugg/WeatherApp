@@ -1,0 +1,46 @@
+html {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  background-color: #201721;
+}
+body {
+  background-color: #201721;
+  overflow: hidden;
+}
+
+#root {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+}
+
+.main {
+  display: flexbox;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  background-image: url("cloud6k.png");
+  background-size: cover;
+  background-position: center;
+}
+
+@font-face {
+  font-family: "KondeLight";
+  src: local("KondeLight"), url("./fonts/KondeLight.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Timeburner";
+  src: local("Timeburner"), url("./fonts/Timeburner.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "TimeburnerBold";
+  src: local("TimeburnerBold"),
+    url("./fonts/TimeburnerBold.ttf") format("truetype");
+  font-weight: bold;
+}

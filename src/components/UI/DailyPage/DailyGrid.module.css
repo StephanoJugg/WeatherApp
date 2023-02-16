@@ -1,0 +1,20 @@
+.daily {
+  display: grid;
+  width: 100vw;
+  margin-left: 6%;
+  margin-top: 10vw;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5vw;
+  padding: 20px;
+  margin-top: 100px;
+  padding-right: 100px;
+}
+
+.title {
+  font-size: 40px;
+  font-family: "TimeBurnerBold";
+  color: white;
+}

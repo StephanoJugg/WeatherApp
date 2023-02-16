@@ -1,0 +1,53 @@
+.weather-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  background-color: transparent;
+  padding: 20px;
+}
+
+.date {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "TimeburnerBold";
+  margin-bottom: 10px;
+  color: white;
+  line-height: 53px;
+}
+
+.degrees {
+  font-size: 64px;
+  font-weight: bold;
+  font-family: "KondeLight";
+  margin-bottom: 20px;
+  color: white;
+  line-height: 80px;
+}
+
+.icon-text {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-family: "TimeBurnerBold";
+  font-size: 32px;
+  line-height: 42px;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  color: white;
+  font-size: 32px;
+}
+
+.progress-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  font-family: "Timeburner";
+  color: white;
+  font-size: 24px;
+  line-height: 32px;
+}

@@ -1,0 +1,71 @@
+.box {
+  width: 50%;
+  height: 502px;
+  display: grid;
+  text-align: right;
+  vertical-align: middle;
+  padding: 5%;
+  margin-top: 7%;
+  cursor: default;
+  justify-content: flex-end;
+}
+
+.box-weekday {
+  height: 50px;
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "TimeburnerBold";
+  color: white;
+}
+
+.box-search {
+  margin-top: 20px;
+  height: 80px;
+  width: 75%;
+  text-align: left;
+  font-size: 50px;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove solid white;
+  font-family: "TimeburnerBold";
+  background-color: transparent;
+  color: white;
+}
+
+.box-search::placeholder {
+  color: white;
+  font-size: 50px;
+  font-family: "TimeburnerBold";
+}
+
+.box-search:focus {
+  outline: none;
+}
+
+.box-info {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  text-align: right;
+  justify-content: flex-end;
+  margin-top: 30px;
+  gap: 50px;
+  color: white;
+}
+
+.box-info-text {
+  font-size: 32px;
+  font-weight: 700;
+  font-family: "TimeburnerBold";
+  margin-right: 10px;
+  text-align: center;
+}
+
+.box-info-temperature {
+  font-size: 40px;
+  font-family: "KondeLight";
+  line-height: 50px;
+  text-align: center;
+}

@@ -1,0 +1,15 @@
+.icon {
+  font-size: 35px;
+  margin-right: 5px;
+  font-family: "TimeburnerBold";
+  color: white;
+  text-transform: lowercase;
+  text-align: center;
+}
+
+.text {
+  font-size: 24px;
+  font-family: "KondeLight";
+  line-height: 30px;
+  text-align: center;
+}

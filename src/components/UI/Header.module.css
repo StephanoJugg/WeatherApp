@@ -1,0 +1,77 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  height: 155px;
+  width: 100vw;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  background-color: transparent;
+}
+
+.header-logo {
+  font-size: 32px;
+  font-weight: bold;
+  font-family: "TimeburnerBold";
+  margin-left: 5%;
+}
+
+.header-logo a {
+  color: white;
+  text-decoration: none;
+}
+
+.header-logo a:hover {
+  color: white;
+}
+
+.header-navigation {
+  display: flex;
+  justify-content: center;
+  font-family: "Timeburner";
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5%;
+  font-family: "TimeburnerBold";
+  font-size: 16px;
+  font-weight: 700;
+  gap: 24px;
+}
+
+.login-btn {
+  padding: 16px 24px 16px 24px;
+  background-color: white;
+  color: black;
+  border: 1;
+  border-color: white;
+  border-radius: 40px;
+  cursor: pointer;
+  margin: 0px 5px 0px 5px;
+}
+
+.login-btn:hover {
+  background-color: black;
+  color: white;
+  border-color: black;
+}
+
+.h-btn {
+  padding: 16px 24px 16px 24px;
+  background-color: transparent;
+  color: white;
+  border-width: 3px;
+  border-color: white;
+  border-radius: 40px;
+  cursor: pointer;
+  margin: 0px 5px 0px 5px;
+}
+
+.h-btn:hover {
+  background-color: black;
+  border-color: black;
+  color: white;
+}
